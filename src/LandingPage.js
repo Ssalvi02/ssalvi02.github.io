@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import Dina from "src/fonts/DinaRemaster-Regular-01.ttf"
+import Dina from "/fonts/DinaRemaster-Regular-01.ttf"
 
 import CssBaseline from '@mui/material/CssBaseline';
 import Box from '@mui/material/Box';
