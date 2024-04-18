@@ -1,6 +1,15 @@
+import logo from './logo.svg';
+import './App.css';
+
 import * as React from 'react';
 import Button from '@mui/material/Button';
 
-export default function ButtonUsage() {
-  return <Button variant="contained">Hello world</Button>;
+function App() {
+  return (
+    <div className="Pages">
+      <Button variant="contained">Hello world</Button>;
+    </div>
+  );
 }
+
+export default App;
