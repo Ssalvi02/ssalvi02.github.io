@@ -1,5 +1,7 @@
 import * as React from 'react';
 
+import Dina from "./src/fonts/fonts/DinaRemaster-Regular-01.ttf"
+
 import CssBaseline from '@mui/material/CssBaseline';
 import Box from '@mui/material/Box';
 import Divider from '@mui/material/Divider';
@@ -29,7 +31,10 @@ export default function LandingPage() {
         dark: "#80493a",
         contrastText: "#cf8acb",
       }
-    } 
+    },
+    typography: {
+      fontFamily: 'Dina',
+    }
   });
 
   return (
@@ -37,7 +42,7 @@ export default function LandingPage() {
       <CssBaseline />
       <AppAppBar mode='dark' />
       <Hero />
-      <Box sx={{ bgcolor: 'background.default' }}>
+      <Box sx={{ bgcolor: 'background.default', fontFamily: 'dina' }}>
         <LogoCollection />
         <Features />
         <Divider />
